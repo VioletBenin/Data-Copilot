@@ -89,6 +89,13 @@ The organization of the whole project is as follows:
 app.py is the file to start gradio. main.py is the processing flow of interface scheduling, and lab_gpt4_call.py is the file to call the GPT35 model.
 The tool_lib and tool.py contain the interface tools obtained after the first phase of interface design. 
 The folder prompt_lib contains the design of the prompt and the in context demonstration.  
+
+### Environment
+```bash
+conda create -n data-copilot python=3.10
+conda activate data-copilot
+```
+
 ### Requirements
 ```bash
 pip install -r requirements.txt
